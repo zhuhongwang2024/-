@@ -17,12 +17,12 @@ module.exports = {
     "vue/max-attributes-per-line": [2, {
       "singleline": 10,
       "multiline": {
-        "max": 16,
-        "allowFirstLine": false
+        "max": 6,
+        "allowFirstLine": true
       }
     }],
-    "vue/singleline-html-element-content-newline": "off",
-    "vue/multiline-html-element-content-newline":"off",
+    "vue/singleline-html-element-content-newline": "true",
+    "vue/multiline-html-element-content-newline": "off",
     "vue/name-property-casing": ["error", "PascalCase"],
     "vue/no-v-html": "off",
     'accessor-pairs': 2,
@@ -47,14 +47,14 @@ module.exports = {
     'curly': [2, 'multi-line'],
     'dot-location': [2, 'property'],
     'eol-last': 2,
-    'eqeqeq': ["error", "always", {"null": "ignore"}],
+    'eqeqeq': ["error", "always", { "null": "ignore" }],
     'generator-star-spacing': [2, {
       'before': true,
       'after': true
     }],
     'handle-callback-err': [2, '^(err|error)$'],
     'indent': [2, 2, {
-      'SwitchCase': 4
+      'SwitchCase': 5
     }],
     'jsx-quotes': [2, 'prefer-single'],
     'key-spacing': [2, {
@@ -108,7 +108,7 @@ module.exports = {
     'no-multi-spaces': 2,
     'no-multi-str': 2,
     'no-multiple-empty-lines': [2, {
-      'max': 1
+      'max': 2
     }],
     'no-native-reassign': 2,
     'no-negated-in-lhs': 2,

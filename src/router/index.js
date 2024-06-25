@@ -108,6 +108,11 @@ export const routes = [
     }]
   },
   {
+    path: '/cardAdd',
+    component: () => import('@/views/Car/CarCard/add-card.vue')
+    // meta: { title: '计费规则管理' }
+  },
+  {
     path: '*',
     component: () => import('@/views/404'),
     hidden: true
